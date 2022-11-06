@@ -1,24 +1,14 @@
-# wo-ui
+# wowo-ui
 
-## Project setup
+## 安装组件库
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+yarn add wowo-ui
 ```
 
-### Compiles and minifies for production
+### 全局导入
 ```
-yarn build
-```
+import WowoUI from 'wowo-ui'
+import 'wowo-ui/wowo-ui.css'
 
-### Lints and fixes files
+Vue.use(WowoUI)
 ```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

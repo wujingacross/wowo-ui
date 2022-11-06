@@ -1,0 +1,84 @@
+
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$--color-primary: #409EFF !default;
+/// color|1|Background Color|4
+$--color-white: #FFFFFF !default;
+/// color|1|Functional Color|1
+$--color-success: #67C23A !default;
+/// color|1|Functional Color|1
+$--color-warning: #E6A23C !default;
+/// color|1|Functional Color|1
+$--color-danger: #F56C6C !default;
+/// color|1|Functional Color|1
+$--color-info: #909399 !default;
+/// color|1|Font Color|2
+$--color-text-placeholder: #C0C4CC !default;
+/// color|1|Font Color|2
+$--color-text-regular: #606266 !default;
+/// color|1|Border Color|3
+$--border-color-lighter: #EBEEF5 !default;
+/// color||Color|0
+$--button-primary-border-color: $--color-primary !default;
+/// color||Color|0
+$--button-primary-font-color: $--color-white !default;
+/// color||Color|0
+$--button-primary-background-color: $--color-primary !default;
+/// color||Color|0
+$--button-success-border-color: $--color-success !default;
+/// color||Color|0
+$--button-success-font-color: $--color-white !default;
+/// color||Color|0
+$--button-success-background-color: $--color-success !default;
+/// color||Color|0
+$--button-warning-border-color: $--color-warning !default;
+/// color||Color|0
+$--button-warning-font-color: $--color-white !default;
+/// color||Color|0
+$--button-warning-background-color: $--color-warning !default;
+/// color||Color|0
+$--button-danger-border-color: $--color-danger !default;
+/// color||Color|0
+$--button-danger-font-color: $--color-white !default;
+/// color||Color|0
+$--button-danger-background-color: $--color-danger !default;
+/// color||Color|0
+$--button-info-border-color: $--color-info !default;
+/// color||Color|0
+$--button-info-font-color: $--color-white !default;
+/// color||Color|0
+$--button-info-background-color: $--color-info !default;
+
+$--button-hover-tint-percent: 20% !default;
+
+
+/* Border
+-------------------------- */
+$--border-radius-small: 2px !default;
+
+/* Button
+-------------------------- */
+/// padding||Spacing|3
+$--button-padding-vertical: 12px !default;
+
+/// color||Color|0
+$--button-disabled-font-color: $--color-text-placeholder !default;
+/// color||Color|0
+$--button-disabled-background-color: $--color-white !default;
+/// color||Color|0
+$--button-disabled-border-color: $--border-color-lighter !default;
+
+/* Dialog
+-------------------------- */
+$--dialog-background-color: $--color-white !default;
+$--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
+$--dialog-padding-primary: 20px !default;
+/// fontSize||Font|1
+$--dialog-content-font-size: 14px !default;
+
+
+/* Message
+-------------------------- */
+/// height||Other|4
+$--message-close-size: 16px !default;
